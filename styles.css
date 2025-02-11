@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+.background1 {
+    background-image: url('https://lh4.googleusercontent.com/proxy/SZ9p-ISSjwZdQwxGrDVOzH9dG2SXgIyWKRTzDREE_zC59UQDfv8isp5kYZDMEEZ7vMGjpU96qOO54MaDId7gHcNWUM7rgmA2yd0QrptKHEcXcn5F7vEPekzODs_3');
+}
+
+.background2 {
+    background-image: url('https://media.istockphoto.com/id/504608682/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B5%D0%BD%D1%8C-%D1%81%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE-%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0-%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9-%D0%B3%D1%80%D0%B0%D0%BD%D0%B6-%D1%84%D0%BE%D0%BD-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B0.jpg?s=612x612&w=0&k=20&c=Axvt-f5dW0gpMNiRRjkwfVSTvfXayocf8_8XhfnBTZI=');
+}
+
+.background3 {
+    background-image: url('https://www.zastavki.com/pictures/1920x1200/2009/Saint_Valentines_Day_Valentine_013146_.jpg');
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Cursive', sans-serif;
+    color: #ff0066;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0000;
+}
+
+.button.light-red {
+    background-color: #ff6666;
+}
+
+.button.light-red:hover {
+    background-color: #cc3333;
+}
+
+.gif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
